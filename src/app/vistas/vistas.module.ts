@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { DetalleComponent } from './detalle/detalle.component';
-
+import { GeneralesModule } from '../generales/generales.module';
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { DetalleComponent } from './detalle/detalle.component';
     DetalleComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    GeneralesModule
   ]
 })
 export class VistasModule { }

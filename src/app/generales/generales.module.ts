@@ -4,6 +4,7 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { ReproductorComponent } from './reproductor/reproductor.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { GridCategoriasComponent } from './grid-categorias/grid-categorias.component';
+import { SliderCategoriasComponent } from './slider-categorias/slider-categorias.component';
 
 
 
@@ -12,7 +13,8 @@ import { GridCategoriasComponent } from './grid-categorias/grid-categorias.compo
     MainMenuComponent,
     ReproductorComponent,
     CategoriasComponent,
-    GridCategoriasComponent
+    GridCategoriasComponent,
+    SliderCategoriasComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { GridCategoriasComponent } from './grid-categorias/grid-categorias.compo
     MainMenuComponent,
     ReproductorComponent,
     CategoriasComponent,
-    GridCategoriasComponent
+    GridCategoriasComponent,
+    SliderCategoriasComponent
   ]
 })
 export class GeneralesModule { }
